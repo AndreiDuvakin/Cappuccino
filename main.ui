@@ -23,7 +23,42 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Эспрессо</string>
+   <string>Капучино</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton {
+background-color: #42e6ec;
+    width: 2px;
+    radius: 10px;
+    color: white;
+    border-radius: 10px;
+font: bold, Arial;
+}
+QMainWindow {
+background-color: #cdeaff;
+font: bold, Arial, 15px;
+}
+QLineEdit {
+    border-radius: 10px;
+font: bord, Arial, 15px;
+}
+QLabel {font: bold, Arial, 15px;
+}
+QPushButton:pressed {
+    background-color: #42d4da;
+    border-style: inset;
+}
+QMainWindow {
+background-color: #cdeaff;
+}
+QTextBrowser {
+font: bold, Arial, 12px;
+background-color: #e0f5ff;
+border-color: black;
+border-radius: 10px;}
+QStatusBar {
+font: font: bold, Arial, 8px;
+color: red;}</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLineEdit" name="lineEdit">
@@ -84,6 +119,7 @@
          <family>Arial</family>
          <pointsize>9</pointsize>
          <weight>75</weight>
+         <italic>false</italic>
          <bold>true</bold>
         </font>
        </property>
@@ -99,6 +135,7 @@
          <family>Arial</family>
          <pointsize>9</pointsize>
          <weight>75</weight>
+         <italic>false</italic>
          <bold>true</bold>
         </font>
        </property>
@@ -114,6 +151,7 @@
          <family>Arial</family>
          <pointsize>9</pointsize>
          <weight>75</weight>
+         <italic>false</italic>
          <bold>true</bold>
         </font>
        </property>
@@ -129,6 +167,7 @@
          <family>Arial</family>
          <pointsize>9</pointsize>
          <weight>75</weight>
+         <italic>false</italic>
          <bold>true</bold>
         </font>
        </property>
@@ -144,6 +183,7 @@
          <family>Arial</family>
          <pointsize>9</pointsize>
          <weight>75</weight>
+         <italic>false</italic>
          <bold>true</bold>
         </font>
        </property>
@@ -159,6 +199,7 @@
          <family>Arial</family>
          <pointsize>9</pointsize>
          <weight>75</weight>
+         <italic>false</italic>
          <bold>true</bold>
         </font>
        </property>
@@ -169,7 +210,7 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -194,6 +235,7 @@
          <family>Arial</family>
          <pointsize>10</pointsize>
          <weight>75</weight>
+         <italic>false</italic>
          <bold>true</bold>
         </font>
        </property>
@@ -209,6 +251,7 @@
          <family>Arial</family>
          <pointsize>10</pointsize>
          <weight>75</weight>
+         <italic>false</italic>
          <bold>true</bold>
         </font>
        </property>
@@ -224,6 +267,7 @@
          <family>Arial</family>
          <pointsize>10</pointsize>
          <weight>75</weight>
+         <italic>false</italic>
          <bold>true</bold>
         </font>
        </property>
@@ -239,6 +283,7 @@
          <family>Arial</family>
          <pointsize>10</pointsize>
          <weight>75</weight>
+         <italic>false</italic>
          <bold>true</bold>
         </font>
        </property>
@@ -254,6 +299,7 @@
          <family>Arial</family>
          <pointsize>10</pointsize>
          <weight>75</weight>
+         <italic>false</italic>
          <bold>true</bold>
         </font>
        </property>
@@ -269,6 +315,7 @@
          <family>Arial</family>
          <pointsize>10</pointsize>
          <weight>75</weight>
+         <italic>false</italic>
          <bold>true</bold>
         </font>
        </property>
@@ -278,6 +325,19 @@
       </widget>
      </item>
     </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>50</y>
+      <width>121</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Редактировать</string>
+    </property>
    </widget>
   </widget>
  </widget>
